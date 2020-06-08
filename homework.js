@@ -1,23 +1,68 @@
 
-// 1. Create a function called "remove" that takes an array and a potential
-// member of the array, and returns a new array with that member removed.
-// For example, `remove(['Cadence', 'Ordel', 'Marion'], 'Marion')` results
-// in `['Cadence', 'Ordel']`.
-//
-// If the potential member is not in the array, return the array unchanged.
-// If the potential member is in the array, remove all instances of it from the array.
+// // 1. Create a function called "remove" that takes an array and a potential
+// // member of the array, and returns a new array with that member removed.
+// // For example, `remove(['Cadence', 'Ordel', 'Marion'], 'Marion')` results
+// // in `['Cadence', 'Ordel']`.
 
-// 2. Revisit your "remove" function. Make sure that it does not change the original
-// array but instead returns a new array.
+// // If the potential member is not in the array, return the array unchanged.
+// // If the potential member is in the array, remove all instances of it from the array.
+// function remove (array, potential){
+//   let student = ["Cadence", "Ordel", "Marion"]
+ function remove (nameArray, newMember){
+   console.log("nameArray", nameArray)
+   comsole.log("newMember", newMember)
+   let idx = nameArray.indexOf(newMember);
+   let newArray = nameArray.filter(name => name !== nameArray[idx]);
+   console.log(newArray[2]);
+   return newArray;
+ }
 
-// 3. Create a function called "sum" that takes an array of numbers and
-// returns the sum of those numbers.
+
+// // 2. Revisit your "remove" function. Make sure that it does not change the original
+// // array but instead returns a new array.
+function eemove (newArray){
+  let newArray = []
+  for (let newArray of newArray){
+    return newArray;
+  }
+}
+
+// // 3. Create a function called "sum" that takes an array of numbers and
+// // returns the sum of those numbers.
+function sum (numbers){
+  let total = 0;
+  for (let number of numbers){
+    console.log(number)
+    total = total + number;
+  }
+  return total
+}
+
+
 
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
+function average (array){
+  const getAverage = arr => {
+    const total = 0;
+    arr.array.forEach(element => {
+      total += element
+    })
+  }
+}
 
+  
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
+function minimum (array){
+  let number = minimumNumber;
+  let numbers = [];
+  for (let number of numbers); {
+    if (miniumu.push(numbers));
+
+  }
+  return minimum.number
+}
 
 // 6. There are many techniques to sort arrays in programming. Your programming
 // language will likely include the ability to do this. We are going to
